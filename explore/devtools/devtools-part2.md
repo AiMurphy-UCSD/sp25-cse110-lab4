@@ -1,0 +1,1 @@
+1. The bug is that num1 and num2 are strings rather than integers, so when the addition operator is applied to num1 and num2, its string concatenation rather than addition.
