@@ -31,7 +31,7 @@
     F. true, this is using strict equality, however the Boolean function returns true as long as the number given is non-zero, so Boolean(2) returns true, and the comparison becomes true === true which is true
 15. The === operator is strict equality and the == operator is abstract equality. The == operator checks for equality after trying performing type coercion (changing the type of the data, '2' can be coerced into the number 2). Meanwhile the === operator does not do the type coercion, it takes everything as is, so even though '2' can be converted into 2 with ==, it will not be converted with ===. === Checks both value and type equality while == checks only == value equality.
 17. The result will be [2, 4, 6] returned by the modifyArray function. The modifyArray takes in two parameters, the array you want to modify, and the reference to the function that will be modifying each individual value in the array. The for loop then loops through every value in the array that was passed in, we push a new value in newArr, that value is what is returned from the value of the passed array after being a parameter for the refenced function. In short, every value in the array that is passed in, is multiplied by 2 and stored in newArr. 
-19. 1
+19) 1
     4
     3
     2
